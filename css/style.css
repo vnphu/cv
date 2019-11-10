@@ -97,7 +97,9 @@ button:focus {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px; } }
+    max-width: 1170px; } 
+  }}
+
 
 @media (min-width: 1620px) {
   .box_1620 {
@@ -861,7 +863,8 @@ button:focus {
       opacity: .5; }
     @media (max-width: 767px) {
       .single-post-area .navigation-area .nav-left {
-        margin-bottom: 30px; } }
+        margin-bottom: 30px; }
+        . }
   .single-post-area .navigation-area .nav-right {
     text-align: right; }
     .single-post-area .navigation-area .nav-right .thumb {
