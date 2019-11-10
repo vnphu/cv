@@ -29,7 +29,14 @@ $(document).ready(function(){
             // items 3 : hien 3 hinh
         }
     );
+        $(window).scroll(function () { 
+            var height = $(window).scrollTop();
+            if(height > 100){
+            $("header").css({"position": "fixed"});}
+            else {
+                $("header").css({"position": "relative","width":"1200px", "x-index":"10",
     
-  
-    
+            });
+            }
+        });
   });
